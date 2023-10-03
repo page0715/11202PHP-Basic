@@ -41,7 +41,7 @@
                 break;
 
             case 'C':
-                echo "c-需要更多的練習";
+                echo "C-需要更多的練習";
                 break;
                 
              case 'D':
