@@ -72,4 +72,28 @@ echo "<br>";
 echo "一共執行了".$count."次的程式內容";
 ?>
 
+<h3>陣列</h3>
 
+<?php
+
+$a=['甲','乙','丙','丁','戊'];
+
+for($i=0;$i<4;$i++){
+    echo $a[$i];
+}
+// echo "<br>";
+echo "<br>";
+for($i=0;$i<count($a);$i++){
+    echo $a[$i];
+}
+echo "<br>";
+
+foreach($a as $b)
+echo $b;
+echo "<br>";
+
+foreach($a as $idx => $b)
+echo $idx."=>".$b;
+echo "<br>";
+
+?>
