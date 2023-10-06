@@ -26,5 +26,17 @@ echo "<pre>";
 
 echo $b['姓名'];
 echo $b['tel'];
+echo "<hr>";
+$c['name']='翁沛騏';
+$c['興趣']=['看書','打電動','聽音樂'];
+echo "<pre>";
+print_r($c);
+echo "<pre>";
+
+echo $c['name'];
+echo $c['興趣'][0];
+echo $c['興趣'][1];
+
+
 
 ?>
