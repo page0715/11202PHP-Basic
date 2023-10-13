@@ -117,7 +117,31 @@ for($i=0;$i<7;$i++){
     echo "<br>";
 
 }
+?>
 
+<h2>矩形加對角線(紅色)</h2>
+<?php
+
+for($i=0;$i<7;$i++){
+
+    for($j=0;$j<7;$j++){
+        if($i==0 || $i==6){
+            echo "*";
+        }else if($j==0 || $j==6 || $i==$j || $i+$j==6){
+            if($i==$j || $i+$j==6){
+                echo "<span style='color:red'>*</span>";
+            }else{
+                echo "*";
+            }
+        }else{
+            echo "&nbsp;";
+
+        }
+
+    }
+    echo "<br>";
+
+}
 ?>
 &nbsp;&nbsp;&nbsp;&nbsp;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;<br>
