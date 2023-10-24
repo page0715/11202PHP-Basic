@@ -59,8 +59,6 @@ echo "<br>";
 $ts='程式設計';
 $t=str_replace($ts,"<span style='font-size:28px; color:red'>$ts</span>",$s);
 echo $t;
-
-
 ?>
 
 <p>&nbsp;</p>
